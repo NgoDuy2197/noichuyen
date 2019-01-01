@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Chating app</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="jquery.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="xuly.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">				
+				<center>
+					<h3>CHAT APPLICATION</h3>
+				</center>
+			</div>
+			<div id="login">
+				<center>
+					<h3>Login</h3>
+					<input type="text" id="inputRegisterContent">
+					<input type="button" id="btnRegister" value="Register">
+				</center>
+			</div>
+			<div id="chatroom">
+				<div id="user-info">
+					<span id="userActived">DEMO</span>
+					<input type="button" id="btnLogout" value="Logout">
+				</div>
+				<div  id="list-people-online">
+					<h3>List user online</h3>
+					<table id='tableUserLogined'>
+					</table>
+				</div>
+				<div id="chat-area-control">
+					<font id="notice-someone-is-typing"></font><br/>
+					<input type="text" id="inputUserMessage">
+					<input type="button" id="btnSend" value="Send">
+				</div>
+				<div id="chat-area">
+					<textarea id="chat-area-content" disabled="disabled">
+					</textarea>
+				</div>
+			</div>
+			<div id="copyright">
+				<marquee>Copyright by duynq2197@gmail.com</marquee>
+			</div>
+		</div>
+	</body>
+</html>

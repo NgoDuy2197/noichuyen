@@ -1,0 +1,52 @@
+#wrapper{
+	height: 100%;
+}
+input{
+	border: solid 2px black;
+}
+marquee{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+#header{
+	background-color: black;
+	color: white;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+#user-info{
+	float: right;
+	background-color: white;
+	color: black;
+}
+#login{
+	background-color: white;
+	color: blue;
+}
+#chatroom{
+}
+#list-people-online{
+	color:red;
+	width: 30%;
+	float: left;
+	height: 300px;
+}
+#chat-area-content{
+	width: 70%;
+	background-color: pink;
+	float: left;
+	height: 300px;
+}
+#chat-area-control{
+	color: black;
+}
+#tableUserLogined tr td{
+	color: gray;
+}
+#img-typing{
+	width: 20px;
+}

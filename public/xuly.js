@@ -1,4 +1,4 @@
-var socket = io("http://localhost:3000");
+var socket = io("http://noichuyen.herokuapp.com/");
 $(document).ready(function(){
 	$("#login").show();
 	$("#chatroom").hide();

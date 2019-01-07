@@ -1,4 +1,4 @@
-var socket = io("http://noichuyen.herokuapp.com/");
+var socket = io("https://noichuyen.herokuapp.com/");
 $(document).ready(function(){
 	$("#login").show();
 	$("#chatroom").hide();
